@@ -25,4 +25,4 @@ Internally, you may traverse the tree with the following functions:
 * rb_color_nodo rb_color(rb_nodo*) -- Get a node's color.
 * rb_nodo* rb_derecho(rb_nodo* n) and rb_nodo* rb_set_derecho(rb_arbol*, rb_nodo* n, rb_nodo* m) -- Get and set node n's right child.
 * rb_nodo* rb_izquierdo(rb_nodo* n) and rb_nodo* rb_set_izquierdo(rb_arbol*, rb_nodo* n, rb_nodo* m) -- Get and set node n's left child.   
-* int rb_datos(rb_nodo*) and int rb_set_datos(rb_nodo*, int) -- Get and set a node's value. In both cases its value is returned.
+* int rb_datos(rb_nodo* n) and int rb_set_datos(rb_nodo* n, int) -- Get and set node n's value. In both cases its value is returned.
